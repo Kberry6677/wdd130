@@ -22,11 +22,11 @@ img {
 }
 
 p {
-    padding: 0px;
+    padding: 0;
 }
 
 main {
-    width: 500px;
+    max-width: 500px;
 }
 
 aside {
