@@ -9,7 +9,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    color: black;
 }
 
 nav{
@@ -27,7 +26,7 @@ h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 200px;
     height: auto;
     border: 1px solid black;
@@ -50,7 +49,7 @@ aside {
 }
 
 aside h2{
-    position: relative;
+    position: absolute;
     top: 1rem;
     left: 7rem;
     color: black;
