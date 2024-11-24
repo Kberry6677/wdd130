@@ -3,6 +3,10 @@
 :root {
     --margin-10px: 10px;
     --color-white: white;
+    --primary-color: #505033;
+    --secondary-color: #264969;
+    --accent1-color: #CFCFB4;
+    --accent2-color: #B4CDE4;
 }
 
 * {
@@ -14,6 +18,7 @@
 nav{
     background-color: darkblue;
     padding: 10px;
+    color: #505033
 }
 
 nav a {
