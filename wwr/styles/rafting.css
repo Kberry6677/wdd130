@@ -7,40 +7,70 @@
  --text-font: Forum, serif;
 }
 * {
-    width: 1000px;
+    width: auto;
 }
 
-img{
-    width: 25%;
+header{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
 }
 
-div{
-    display: block;
+header img{
+    width: auto;
+}
+
+header nav{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-evenly;
+
+}
+
+.history{
+    display: flex;
+    flex-direction: column;
+}
+
+.history_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: auto;
+}
+
+.history_info img{
+    height: 200px;
+    width: auto;
+    order: 2;
+}
+
+.history_info p{
+    order: 2;
 }
 
 .hero {
-    position: relative;
     text-align: center;
     padding: 10px;
+    height: 500px;
 }
 
 .hero img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 
 .hero h1{
     position: absolute;
-    top: 1%;
-    text-align: center;
+    top: 80px;
     font-size: 4rem;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
 }
 
 .hero article {
-    position: absolute;
-    bottom: 0px;
+    position:relative;
+    bottom: 280px;
     background-color: var(--accent2-color);
     opacity: 0.8;    
     height: 40%;
@@ -61,14 +91,18 @@ div{
     color: var(--accent1-color);
 }
 .hero article img {
-    width: auto;
-    height: 50%;
+    position: absolute;
     float: right;
+    height: 100px;
+    width: auto;
+    right: 10px;
+    opacity: 100%;
 }
 
 h1, h2 {
     font-family: var(--heading-font);
     color:  var(--primary-color);
+    text-align: center;
 }
 
 p {
@@ -81,6 +115,31 @@ p {
     text-decoration: none;
 }
 
-.sociallinks img{
-    width: 10%;
+.bottom_images{
+    display: flex;
+    align-items: center;
+    
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+}
+
+footer{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+footer img{
+    width: 30px;
+    height: auto;
 }
