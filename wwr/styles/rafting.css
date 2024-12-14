@@ -143,3 +143,119 @@ footer img{
     width: 30px;
     height: auto;
 }
+
+.company {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.employee_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.employee_images img, figcaption{
+    width: 200px;
+    height: auto;
+}
+
+.info {
+    height: 250px;
+}
+
+body {
+    font-family: Forum, Neuton, serif;
+    color: maroon;
+    background-color: cream;
+}
+
+header {
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin: 1px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: lightgray;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    margin: 20px;
+    border: 1px solid maroon;
+    padding: 10px;
+}
+
+legend {
+    padding: 5px;
+    color: black;
+    font-size: larger;
+}
+
+label, input, select, textarea{
+    font-family: Forum;
+    font-size: medium;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: maroon;
+    margin: 1rem;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+footer {
+    text-align: center;
+    font-family: Neuton, Forum, sans-serif;
+    font-size: large;
+    border-top: 2px solid black;
+    margin-top: 30px;
+}
+
+.form-item
+{
+    display: grid;
+    align-items: left;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
