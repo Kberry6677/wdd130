@@ -165,8 +165,8 @@ footer img{
 
 body {
     font-family: Forum, Neuton, serif;
-    color: maroon;
-    background-color: cream;
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
 
 header {
@@ -247,7 +247,7 @@ footer {
 .form-item
 {
     display: grid;
-    align-items: left;
+    justify-content: left;
 }
 
 .column1 {
