@@ -14,6 +14,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 4fr;
     align-items: center;
+    margin: auto;
 }
 
 header img{
@@ -51,6 +52,7 @@ header nav{
 .hero {
     text-align: center;
     padding: 10px;
+    margin-top: 50px;
     height: 500px;
 }
 
@@ -66,6 +68,7 @@ header nav{
     font-size: 4rem;
     background-color: var(--accent1-color);
     color: var(--secondary-color);
+    margin: 150px;
 }
 
 .hero article {
@@ -99,9 +102,14 @@ header nav{
     opacity: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color:  var(--primary-color);
+    text-align: center;
+}
+
+h4 {
+    font-size: large;
     text-align: center;
 }
 
@@ -167,12 +175,6 @@ body {
     font-family: Forum, Neuton, serif;
     color: var(--primary-color);
     background-color: var(--accent1-color);
-}
-
-header {
-    width: auto;
-    height: auto;
-    padding: 10px;
 }
 
 h1 {
@@ -259,3 +261,51 @@ footer {
     grid-template-columns: 1fr 2fr;
 }
 
+.trip_images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}   
+
+.headline {
+    grid-column-start: 1; 
+    grid-column-end: 3;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+.trip_images_trips {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.high_trip {
+    border: var(--secondary-color) 1px solid;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.high_trip img {
+    height: auto;
+    width: fit-content;
+}
+
+.high_trip h3, p{
+    width: fit-content;
+    align-items: end;
+}
+
+.contact_us_box a {
+    display:block;
+    height:100%;
+    width:100%;
+    padding: 10px;
+    border: var(--secondary-color) solid 1px;
+    background-color: var(--accent2-color);
+    text-decoration: none;
+}
+
+td {
+    text-align: center;
+}
